@@ -1,0 +1,51 @@
+.bio{
+    grid-column: 1 /span 5;
+    grid-row: 2 /span 1;
+    background-image: url("../image/bachground.jpg");
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    display: inline-block;
+    border-bottom: 20px solid teal;
+    height: 40hw;
+}
+.container_bio{
+    display: inline-block;
+    grid-row: 2 /span 1;
+    grid-column: 2 /span 1;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    background-color: white;
+    margin: 50px 200px 50px 300px;
+    padding: 10px;
+    border: 2px solid darkgrey;
+}
+
+.about_me_header{
+    grid-row: 1 /span 1;
+    grid-column: 1 /span 1;
+    color: teal;
+    border-bottom: 2px solid grey;
+    margin-top: 2vh;
+    
+}
+.image{
+    grid-row: 2 /span 1;
+    grid-column: 1 /span 1;
+    width: 100px;
+    height: 100px;
+    margin: 7px 250px 10px 10px;
+}
+
+.text1{
+    display: inline-block;
+    grid-row: 2 /span 1;
+    grid-column: 1 /span 1;
+    margin-left: 10vw;
+}
+.text2{
+    display: inline-block;
+    grid-row: 3 /span 1;
+    grid-column: 1 /span 1;
+}

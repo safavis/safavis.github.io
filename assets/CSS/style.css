@@ -1,0 +1,67 @@
+.container{
+    display:grid;
+    grid-template-rows:2fr 20fr 2fr;
+    grid-template-columns:  2fr 2fr 1fr 1fr 1fr;  
+}
+.header{
+    grid-row: 1 /span 1;
+    grid-column: 1 /span 5;
+    display: gird;
+    grid-template-columns: 3fr 3fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    height: 5hw;;
+    border-bottom: 2px solid grey;
+}
+
+.Myname{
+    text-align: center;
+    width: 15vw;
+    display: inline-block;
+    grid-row: 1 /span 1;
+    grid-column: 1 /span 1;
+    background-color: teal;
+    color: #ebebeb;
+    margin-left: 200px;
+    margin-right: 500px;
+    margin-bottom: 0px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.about{
+    display: inline-block;
+    grid-column: 3 /span 1;
+    grid-row: 1 /span 1;
+    color: darkgrey;
+    margin-right: 2.5vw;
+    padding-right: 2.5vw;
+    text-decoration: none;
+    border-right: 2px solid darkgray;
+}
+
+.Portfolio{
+    display: inline-block;
+    grid-row: 1 /span 1;
+    grid-column: 4 /span 1;
+    color: darkgrey;
+    margin-right: 2.5vw;
+    padding-right: 2.5vw;
+    text-decoration: none;
+    border-right: 2px solid darkgray;
+}
+
+.Contact{
+    display: inline-block;
+    grid-row: 1 /span 1;
+    grid-column: 5 /span 1;  
+    color: darkgrey;
+    margin-right: 5vw;
+    text-decoration: none;
+}
+
+.footer
+{
+    grid-column: 1 /span 5;
+    grid-row: 3 /span 1;
+    background-color:grey;
+  
+}
