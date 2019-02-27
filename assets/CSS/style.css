@@ -1,67 +1,74 @@
-.container{
-    display:grid;
-    grid-template-rows:2fr 20fr 2fr;
-    grid-template-columns:  2fr 2fr 1fr 1fr 1fr;  
+.navbar{
+    height: 5vh;
+    width: 100vw;
 }
-.header{
-    grid-row: 1 /span 1;
-    grid-column: 1 /span 5;
-    display: gird;
-    grid-template-columns: 3fr 3fr 2fr 2fr 2fr;
-    grid-template-rows: 1fr;
-    height: 5hw;;
-    border-bottom: 2px solid grey;
+.no-shadows {
+    box-shadow: none;
+    margin: 0px 0px 0px 0px;
 }
+.title_name_left_margin{
+    margin-left: 0vw;
+    font-family: 'Georgia', Times , Times New Roman, serif;
+    font-size: 39pt;
 
-.Myname{
-    text-align: center;
-    width: 15vw;
-    display: inline-block;
-    grid-row: 1 /span 1;
-    grid-column: 1 /span 1;
-    background-color: teal;
-    color: #ebebeb;
-    margin-left: 200px;
-    margin-right: 500px;
-    margin-bottom: 0px;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
 }
-.about{
-    display: inline-block;
-    grid-column: 3 /span 1;
-    grid-row: 1 /span 1;
-    color: darkgrey;
-    margin-right: 2.5vw;
-    padding-right: 2.5vw;
-    text-decoration: none;
-    border-right: 2px solid darkgray;
+.contact_right_margin{
+    margin-right: 10vw;
 }
-
-.Portfolio{
-    display: inline-block;
-    grid-row: 1 /span 1;
-    grid-column: 4 /span 1;
-    color: darkgrey;
-    margin-right: 2.5vw;
-    padding-right: 2.5vw;
-    text-decoration: none;
-    border-right: 2px solid darkgray;
+.right_border_line{
+    border-right: 2px solid #cccccc;
 }
-
-.Contact{
-    display: inline-block;
-    grid-row: 1 /span 1;
-    grid-column: 5 /span 1;  
-    color: darkgrey;
-    margin-right: 5vw;
-    text-decoration: none;
+.grey_container{
+    background-image: url("../image/bachground.jpg");
+    border-top: 5px solid #cccccc;
+    margin: 0px 0px 0px 0px;
+    padding: 0vh 0vw 0vh 0vw;
+    width: 100vw;
+    height: 100vh; 
 }
-
-.footer
+@media only screen and (max-width: 640px)
+{.grey_container{
+    height: 180vh;}
+.navbar{
+    height: 15vh;
+}
+.title-name-left-margin{
+    margin-left: 0vw;
+    height: 30vh;
+    width:7vw;}
+.contact_right_margin{
+    margin-right: 20vw;
+}
+}
+@media only screen and (min-width: 640px) and (max-width: 760px)
 {
-    grid-column: 1 /span 5;
-    grid-row: 3 /span 1;
-    background-color:grey;
-  
+    .title-name-left-margin{
+        margin-left: 5vw;
+        background-color: red;
+    }
+    }
+    
+.white_page{
+    background-color: white;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border: 2px solid #dddddd;
+    /* height: 50vh; */
+}
+.white_page_header{
+color: teal;
+font-family: 'Georgia', Times , Times New Roman, serif;
+border-bottom: 2px solid #dddddd;
+margin-left: 20px;
+margin-right: 20px;
+margin-top:20px;
+text-align: left;
+height: 10vh;
+}
+.footer{
+    background-color: #666666;
+    height: 10vh;
+    width: 100vw;
+    border-top: 10px solid teal;
+    text-align: center
 }
