@@ -13,15 +13,15 @@
 
 
 }
-@media only screen and (max-width: 980px)
+@media only screen and (max-width: 780px)
 {
 .image_portfolio{
     margin-left: 0px;
-    width: 240;
+    width: 240px;
 }
 .button{
     margin-left: 0px;
-    width: 240;
-    height: 60;
+    width: 240px;
+    height: 40px;
 }
 }
