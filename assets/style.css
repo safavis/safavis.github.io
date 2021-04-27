@@ -1,0 +1,165 @@
+#totalContainer{
+    margin:0 0 0 0;
+    width: 100%;
+}
+#tileHeader{
+    background-image: url('header.jpg');
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: 100;
+    width: 100%;
+}
+#tileHeaderResearch{
+    background-image: url('research.jpg');
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: 100;
+    width: 100%;
+}
+
+#welcomeText{
+    font-size: 50px;
+    font-family: 'Lobster', serif;
+    padding: 0vh 0vw 0vh 0vw;
+    border: 0 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: bisque;
+    
+}
+.navbarText{
+    color: bisque;
+    font-size: 20px;
+    
+
+}
+.navbarText:hover{
+    color: burlywood;
+}
+#navbarDiv{
+    border: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+#mahyaDiv{
+    display:inline-block ;
+    background-image: url('mahya.png');
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: 100;
+    width: 40vw;
+    
+
+}
+.researchBack{
+/* background-color: darkgray; */
+}
+    
+.researchOverlay{
+    background-color: white;
+    margin-top: 6vh;
+    margin-left: 6vw;
+    border: solid #000;
+    border-width: 1px;
+    border-color: gray;
+    
+}
+ #mahyaImage{
+    display:inline-block ;
+    margin: 3vw 3vh 3vw 3vh;
+    height: 400px;
+    width: 400px;
+} 
+#textdiv{
+    display: inline;
+}
+.bodyText{
+    color: midnightblue;
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    padding-top: 5vh;
+}
+.bodyDiv{
+    text-align: justify;
+    color: midnightblue;
+    font-size: 27px;
+    font-family: 'Merriweather', serif;
+    /*padding: 4vw 4vh 4vw 0vh ;*/
+    /* width: 70vw;  */
+    align-content: center;
+    line-height: 40px;
+
+}
+.topCardDiv{
+    text-align: justify;
+    color: midnightblue;
+    font-size: 29px;
+    font-family: 'Merriweather', serif;
+    /* width: 40vw;  */
+    /* align-content: center; */
+    line-height: 50px;
+    padding: 3vw 2vh 3vw 3vh ;
+    margin: 0 0 0 0;
+
+
+}
+.topCardDivResearch{
+    text-align: justify;
+    color: midnightblue;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    line-height: 40px;
+    padding: 3vw 2vh 3vw 3vh ;
+    margin: 0 0 0 0;
+
+}
+
+.modalTitle{
+    text-align: justify;
+    color: midnightblue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    line-height: 40px;
+    padding: 3vw 2vh 3vw 3vh ;
+    margin: 0 0 0 0;
+
+}
+
+#cardText{
+     width: 50vw;   
+}
+#spectrumImage{
+    margin: 4vw 0vh 1vw 0vh;
+    height: 290px;
+    width: 400px;
+    align-content: center;
+
+} 
+.clickingHover:hover{
+    color: blue;
+    font-size: 20px;
+}
+.researchGround{
+    height: 2px;;
+    border-bottom: 40px;
+    margin: 3px 3px 3px 3px;
+    background-color: darkgrey;
+}
+.footerText{
+    color: bisque;
+    display: inline;
+
+}
+.topCardDivPub{
+    text-align: justify;
+    color: midnightblue;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    /* width: 40vw;  */
+    /* align-content: center; */
+    line-height: 25px;
+    margin: 0 0 0 0;
+
+
+}
+

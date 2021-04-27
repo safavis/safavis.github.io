@@ -2,45 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="./assets/CSS/style.css">
-    <link rel="stylesheet" href="./assets/CSS/style_about.css">
-</head>
-<body>
-    <div class=" row navbar">
-        <div class="col s12 l12 m12">
-            <nav class="no-shadows">
-                <div class="nav-wrapper white black-text">
-                <a href="#" class=" teal title_name_left_margin ">Mahya Safavi</a>
-                <ul id="nav-mobile" class="right ">
-                    <li ><a href="index.html" class="grey-text text-lighten-1 right_border_line">About</a></li>
-                    <li ><a href="portfolio.html" class="grey-text text-lighten-1 right_border_line">Portfolio</a></li>
-                    <li><a href="contact.html" class="grey-text text-lighten-1 contact_right_margin">Contact</a></li>
-                </ul>
-                </div>
-            </nav>
-        </div>
-    </div>
-    <div class="row grey_container">
-        <div class="col m2 s2"></div>
-        <div class="col m8 s8 white_page">
-                    <h3 class="white_page_header">
-                            About Me
-                     </h3> 
-                    <img src="./assets/image/mahya.jpg" class="responsive-img image" alt="Mahya Safavi's image">
-                            <p class="bio_text">
-                                    Welcome to my webpage. I am a PhD student in Electrical Engineering and Computer Science department University of California Irvine. My research interesets are developing signal processing algorithms for brain computer interface. I aslo work on analysis of cardiovascular manifestaion of epileptic seizures.
-                            </p>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/academicons.min.css"/>
 
+    
+  </head>
+<body>
+    <div class="container", id="totalContainer">
+       <div class="row">
+          <!-- header -->
+            <div class="col s12 l12 m12" id="tileHeader">
+              <h1 id="welcomeText">Mahya Safavi</h1>
+            </div>
+            
+            
+           <!-- navbar--> 
+          <div id="navbarDiv"class="col s12 l12 m12"> 
+              <nav>
+                <div class="nav-wrapper teal darken-4">
+                  <a href="#" class="brand-logo right"></a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                  <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="index.html" class="navbarText"> <i class="material-icons left">home</i>Home</a></li>
+                    <li><a href="publication.html"class="navbarText">Publication</a></li>
+                    <li><a href="assets/Mahya_Safavi_CV.pdf"class="navbarText">My CV</a></li>
+                    <li><a href="research.html"class="navbarText">Research</a></li>
+                   
+
+                  </ul>
+                </div>
+              </nav>
+              <ul class="sidenav" id="mobile-demo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publication.html">Publication</a></li>
+                <li><a href="assets/Mahya_Safavi_CV.pdf">My CV</a></li>
+                <li><a href="research.html">Research</a></li>
+              </ul>
+            </div>
+
+<!-- card -->
+      <div class="col s12 m12 l12">
+            <div class="card horizontal">
+              <div class="card-image waves-effect waves-block waves-light s12 m12 l4 mahyaDiv">
+                <img class="activator" id="mahyaImage" src="assets/mahya.png">
+              </div>
+              <div class="card-content s12 m12 l6" id="cardText">
+                <!-- <span class="card-title activator grey-text text-darken-4 "><p class='bodyText'>Welcome</p></span> -->
+                <p class="bodyDiv">My name is Mahya Safavi and I obtained my 
+                  Ph.D. from EECS department at University of California, Irvine. 
+                  My PhD focus has been brain-computer interface, and wearble devices under supervison of Pai H. Chou.
+                  I had a great experience internship at Livmor Inc., where we worked on an application to 
+                  detect atrial fibrillation using PPG sensor. Prior to UC Irvine, I received my B.Sc. and M.Sc
+                  in electrical engineering from University of Tehran and Sharif University of Technology Tehran, Iran.</p>
+              </div>
+              
+            </div>
+      </div>
+                <!-- <div class="col s3 m3 l3" id="mahyaDiv">
+                    <img src="assest/mahya.png" alt="mahya" id="mahyaImage">
+                </div>
+                <div class="col s6 m6 l6" id="textDiv">
+                    <p class="bodyText">
+                      Welcome to my home page.
+                  </p>
+                </div>
+            <div class="col s12 m12 l12">
+              <p> 
+              </p> 
+            </div> -->
+          </div>
+
+           <!-- /*footers*/ -->
+   <footer class="page-footer teal darken-4">
+    <div class="container teal darken-4">
+      <div class="row">
+        <div class="col l12 s12 ">
+          <h5 class="footerText">Connect with me   </h5>
+          <a href="https://www.linkedin.com/in/mahya-safavi-a81a3115/" >
+            <i class="fa fa-linkedin-square" style="font-size:44px"></i>
+          </a>
+         
+          <a href="https://github.com/safavis">
+            <i class="fa fa-github" aria-hidden="true"  style="font-size:44px"></i>
+          </a>
+          <a href="https://scholar.google.com/citations?user=QX-L_YgAAAAJ&hl=en" >
+            <i class="ai ai-google-scholar-square ai-3x"></i>
+
+          </a>
         </div>
-        <div class="col m2 s2"></div>
+      </div>
     </div>
-    <div class="row footer">
-        copyright@
-    </div>  
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+  </footer>
+    </div>
+        <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.sidenav');
+          var instances = M.Sidenav.init(elems, "hover");
+          });
+        </script>
+
 </body>
 </html>
